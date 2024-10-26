@@ -14,7 +14,7 @@ def rysuj_ramke_w_obrazie(obraz, grub):
     tab = tab_obraz.astype(np.bool_)
     return Image.fromarray(tab)
 z_ramka = rysuj_ramke_w_obrazie(obraz,5)
-# z_ramka.show()
+z_ramka.show()
 
 def rysuj_ramki(w,h,grub):
     tab = np.ones((h,w),dtype=np.bool_)
@@ -30,31 +30,20 @@ def rysuj_ramki(w,h,grub):
         tab[top:bottom, right - grub:right] = 0
     return Image.fromarray(tab)
 ramka = rysuj_ramki(500,300,10)
-# ramka.show()
-
-def rysuj_ramke(w, h, grub):
-    t = (h, w)
-    tab = np.zeros(t, dtype=np.uint8)
-    tab[grub:h - grub, grub:w - grub] = 1
-    tab1 = tab.astype(np.bool_)
-    return Image.fromarray(tab1)
-ramka = rysuj_ramke(200, 100, 5)
-# ramka.show()
-
-
+ramka.show()
 
 def rysuj_pasy_pionowe(w,h,grub):
     t = (h, w)
     tab = np.ones(t,dtype=np.bool_)
-    ile = int(h/grub)
+    ile = int(w/grub)
     for k in range(ile):
         for g in range(grub):
             i = k * grub + g
             for j in range(h):
                 tab[j, i] = k % 2
     return Image.fromarray(tab)
-obrazek = rysuj_pasy_pionowe(100,100, 5)
-# obrazek.show()
+obrazek = rysuj_pasy_pionowe(200,100, 10)
+obrazek.save("obraz.bmp")
 
 
 def rysuj_wlasne(w,h,grub):
@@ -80,7 +69,6 @@ def wstaw_obraz_w_obraz(obraz_bazowy, obraz_wstawiany,m,n):
     tab_obraz_bazowy = tab_obraz_bazowy.astype(bool)
     return Image.fromarray(tab_obraz_bazowy)
 obraz_wstawianie = wstaw_obraz_w_obraz(obrazek, obraz, 0,25)
-# obraz_wstawianie.show()
-
+obraz_wstawianie.show()
 
 
