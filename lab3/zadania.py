@@ -11,7 +11,7 @@ def rysuj_ramke_szare(w, h, grub, kolor_ramki, kolor):  # kolor od 0 do 255
     return Image.fromarray(tab)
 
 
-im_ramka = rysuj_ramke_szare(120, 60, 8, 100, 200)
+# im_ramka = rysuj_ramke_szare(120, 60, 8, 100, 200)
 
 
 def rysuj_pasy_poziome_szare(w, h, grub, zmiana_koloru):
@@ -26,7 +26,7 @@ def rysuj_pasy_poziome_szare(w, h, grub, zmiana_koloru):
     return Image.fromarray(tab)
 
 
-im_paski = rysuj_pasy_poziome_szare(100, 246, 1, 10)
+# im_paski = rysuj_pasy_poziome_szare(100, 246, 1, 10)
 
 
 # im_paski.show()
@@ -41,7 +41,7 @@ def negatyw_szare(obraz):
     return Image.fromarray(tab_neg)
 
 
-obraz_neg = negatyw_szare(im_paski)
+# obraz_neg = negatyw_szare(im_paski)
 
 
 def rysuj_po_skosie_szare(h, w, a, b):  # formuła zmiany wartości elemntów tablicy a*i + b*j
@@ -53,7 +53,7 @@ def rysuj_po_skosie_szare(h, w, a, b):  # formuła zmiany wartości elemntów ta
     return Image.fromarray(tab)
 
 
-im_skos = rysuj_po_skosie_szare(100, 300, 1, 3)
+# im_skos = rysuj_po_skosie_szare(100, 300, 1, 3)
 
 
 def rysuj_ramke_kolor(w, h, grub, kolor_ramki, kolor_tla):  # kolor_ramki, kolor podajemy w postaci [r, g, b]
@@ -67,7 +67,7 @@ def rysuj_ramke_kolor(w, h, grub, kolor_ramki, kolor_tla):  # kolor_ramki, kolor
     return Image.fromarray(tab)
 
 
-im_ramka_kolor = rysuj_ramke_kolor(120, 60, 8, [0, 0, 255], [100, 200, 0])
+# im_ramka_kolor = rysuj_ramke_kolor(120, 60, 8, [0, 0, 255], [100, 200, 0])
 
 
 def rysuj_pasy_poziome_3kolory(w, h, grub):  # funkcja rysuje pasy poziome na przemian czerwony, zielony, niebieski
@@ -87,7 +87,7 @@ def rysuj_pasy_poziome_3kolory(w, h, grub):  # funkcja rysuje pasy poziome na pr
     return Image.fromarray(tab)
 
 
-obraz1 = rysuj_pasy_poziome_3kolory(200, 100, 10)
+# obraz1 = rysuj_pasy_poziome_3kolory(200, 100, 10)
 
 
 def rysuj_pasy_poziome_kolor(w, h, grub, kolor,
@@ -107,7 +107,7 @@ def rysuj_pasy_poziome_kolor(w, h, grub, kolor,
     return Image.fromarray(tab)
 
 
-obraz2 = rysuj_pasy_poziome_kolor(200, 100, 10, [100, 200, 0], 32)
+# obraz2 = rysuj_pasy_poziome_kolor(200, 100, 10, [100, 200, 0], 32)
 
 
 def koloruj_obraz(obraz, kolor):
@@ -124,8 +124,8 @@ def koloruj_obraz(obraz, kolor):
     return Image.fromarray(tab)
 
 
-gwiazdka = Image.open("gwiazdka.bmp")
-obraz3 = koloruj_obraz(gwiazdka, [120, 240, 50])
+# gwiazdka = Image.open("gwiazdka.bmp")
+# obraz3 = koloruj_obraz(gwiazdka, [120, 240, 50])
 
 
 def rysuj_ramki_kolorowe(w, kolor, zmiana_koloru_r, zmiana_koloru_g, zmiana_koloru_b):
@@ -145,7 +145,7 @@ def rysuj_ramki_kolorowe(w, kolor, zmiana_koloru_r, zmiana_koloru_g, zmiana_kolo
     return Image.fromarray(tab)
 
 
-obraz3 = rysuj_ramki_kolorowe(200, [20, 120, 220], 6, 7, -6)
+# obraz3 = rysuj_ramki_kolorowe(200, [20, 120, 220], 6, 7, -6)
 
 
 def rysuj_ramki_szare(w, h, grub, kolor_ramki, kolor):
@@ -166,9 +166,8 @@ def rysuj_ramki_szare(w, h, grub, kolor_ramki, kolor):
     return Image.fromarray(tab)
 
 
-ramki = rysuj_ramki_szare(300, 200, 5, 90, 255)
-
-# ramki.show()
+ramki = rysuj_ramki_szare(300, 200, 5, 90, 1)
+ramki.show()
 
 
 def rysuj_pasy_pionowe_szare(w, h, grub, zmiana_koloru):
@@ -181,12 +180,23 @@ def rysuj_pasy_pionowe_szare(w, h, grub, zmiana_koloru):
             for j in range(h):
                 tab[j, i] = (k + zmiana_koloru) % 256
     return Image.fromarray(tab)
-pionowe_szare = rysuj_pasy_pionowe_szare(600,100, 10,50)
-pionowe_szare.show()
+# pionowe_szare = rysuj_pasy_pionowe_szare(200,100, 10,50)
+# pionowe_szare.show()
 
 def negatyw(obraz):
-    return
+    if obraz.mode == '1' or obraz.mode == 'L' or obraz.mode == 'RGB':
+        tab = np.asarray(obraz)
+        tab_neg = tab.copy()
+        h, w = tab.shape
+        for i in range(h):
+            for j in range(w):
+                tab_neg[i, j] = 255 - tab[i, j]
+        return Image.fromarray(tab_neg)
+    else:
+        return obraz
+
+# negatywny = negatyw(pionowe_szare)
+# negatywny.show()
 
 
-def koloruj_w_paski(obraz, grub, x):
-    return
+
