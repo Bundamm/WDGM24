@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2e3b51-03a5-473a-b0cc-13519460a26c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab3/inicjaly.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/raport.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/zad2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/zad3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/zadania_do_wyslania.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/m2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/inicjaly.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/obraz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/praca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab5/raport5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/.idea/lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/.idea/lab2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/lab2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/lab2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/.idea/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/.idea/lab3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/lab3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/lab3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/zadania.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/zadania.py" afterDir="false" />
-    </list>
+    <list default="true" id="5f2e3b51-03a5-473a-b0cc-13519460a26c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +159,7 @@
       <workItem from="1731244154059" duration="9141000" />
       <workItem from="1732111577562" duration="459000" />
       <workItem from="1732112488735" duration="163000" />
-      <workItem from="1732197053074" duration="2610000" />
+      <workItem from="1732197053074" duration="3884000" />
     </task>
     <servers />
   </component>
