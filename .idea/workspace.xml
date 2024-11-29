@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2e3b51-03a5-473a-b0cc-13519460a26c" name="Changes" comment="" />
+    <list default="true" id="5f2e3b51-03a5-473a-b0cc-13519460a26c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab6/Wymagania do kolokwium1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/baby_yoda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/gwiazdka.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/inicjaly.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/lab6.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/lab6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/lab6rozw.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/obraz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/zadania6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/rozw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,26 +41,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/bundam/Desktop/git_uwm/WDGM24",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bundam/Desktop/git_uwm/WDGM24/lab6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab6" />
       <recent name="$PROJECT_DIR$/lab5" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab7" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.praca">
+  <component name="RunManager" selected="Python.zadania6">
     <configuration name="m2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WDGM24" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +153,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zadania6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WDGM24" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab6/zadania6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zadania6" />
         <item itemvalue="Python.praca" />
         <item itemvalue="Python.m2" />
         <item itemvalue="Python.main" />
@@ -160,6 +199,8 @@
       <workItem from="1732111577562" duration="459000" />
       <workItem from="1732112488735" duration="163000" />
       <workItem from="1732197053074" duration="3884000" />
+      <workItem from="1732375866595" duration="4883000" />
+      <workItem from="1732883322941" duration="480000" />
     </task>
     <servers />
   </component>
@@ -198,6 +239,7 @@
     <SUITE FILE_PATH="coverage/WDGM24$m2.coverage" NAME="m2 Coverage Results" MODIFIED="1730316642359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/WDGM24$praca.coverage" NAME="praca Coverage Results" MODIFIED="1731251397637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
     <SUITE FILE_PATH="coverage/WDGM24$main.coverage" NAME="main Coverage Results" MODIFIED="1730315491593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+    <SUITE FILE_PATH="coverage/WDGM24$zadania__1_.coverage" NAME="zadania (1) Coverage Results" MODIFIED="1732378584380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab6" />
     <SUITE FILE_PATH="coverage/WDGM24$zadania.coverage" NAME="zadania Coverage Results" MODIFIED="1728583906988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab1" />
   </component>
 </project>
