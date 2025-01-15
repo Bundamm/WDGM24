@@ -1,5 +1,4 @@
 from PIL import Image
-import numpy as np
 
 #1
 def rysuj_kwadrat_max(obraz, m, n, k):
@@ -100,7 +99,7 @@ def rysuj_kolo(obraz, m_s, n_s, r, m_docelowy, n_docelowy):
 
     return obraz1
 
-im = Image.open("obraz.png")
+im = Image.open("../lab8/obraz.png")
 imk = rysuj_kolo(im, 320, 180, 50, 100, 50)
 imk.save('obraz3.png')
 
@@ -112,7 +111,7 @@ imk6 = rysuj_kolo(imk5, 320, 180, 50, 200, 0)
 imk7 = rysuj_kolo(imk6, 320, 180, 50, 200, 340)
 imk7.save('obraz4.png')
 
-def odbij_w_pionie(im):
+def odbij_w_pionie2(im):
     img = im.copy()
     w, h = im.size
     px = img.load()
@@ -121,7 +120,7 @@ def odbij_w_pionie(im):
             px[i, j] = px[w - 1 - i, j]
     return img
 
-def odbij_w_pionie2(im):
+def odbij_w_pionie(im):
     px0 = im.load()
     img = im.copy()
     w, h = im.size
@@ -134,5 +133,7 @@ def odbij_w_pionie2(im):
 
 imo = odbij_w_pionie(im)
 imo2 = odbij_w_pionie2(im)
+imo.show()
 imo2.show()
+
 

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 #1
 
-obraz = Image.open('../lab7/obraz.png')
+obraz = Image.open('../lab8/obraz.png')
 inicjaly = Image.open('inicjaly.bmp')
 
 obrazk = obraz.copy()
